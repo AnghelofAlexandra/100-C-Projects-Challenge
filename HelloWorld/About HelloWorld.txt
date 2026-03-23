@@ -1,0 +1,49 @@
+# Greeting App with Typewriter Effect
+
+A simple Windows Forms application that asks for your name and displays a personalized greeting with a real-time typing animation.  
+Built with C# and .NET (Windows Forms).
+
+## Features
+
+- **User input**: Enter your name in a text box.
+- **Press Enter or click the button** to trigger the greeting.
+- **Typewriter effect**: The greeting message appears character by character, simulating real-time typing.
+- **Input validation**: Displays a warning if the name field is empty.
+- **Clean UI**: Minimalist interface with a focus on the animation.
+
+## Technologies
+
+- C# .NET (Windows Forms)
+- Visual Studio (or any C# IDE)
+- .NET Framework / .NET Core (depending on your setup)
+
+## Getting Started
+
+### Prerequisites
+- Windows OS
+- .NET Framework 4.7.2+ or .NET 6+ (Windows Forms)
+
+### Running the Application
+1. Clone the repository.
+2. Open the solution (`.sln`) in Visual Studio.
+3. Build and run (`F5`).
+
+## How It Works
+
+- `Form1` collects the user’s name.
+- After validation, it passes the name to `Form2`.
+- `Form2` uses a `Timer` to add one character to a `Label` every 60 ms, creating the typewriter effect.
+
+## Future Improvements
+
+- Add sound effects for each keystroke.
+- Allow customization of typing speed.
+- Support multiple languages.
+
+## Screenshots
+
+*(Add a screenshot here)*
+
+## Author
+
+[Your Name]
